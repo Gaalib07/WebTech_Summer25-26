@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="design.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Information</title>
@@ -13,42 +14,44 @@
 
             <table>
                 <tr>
-                    <td>Full Name</td>
-                    <td><input type="text" name="name"></td>
-                </tr>
+                    <td>Full Name (Text)</td> 
+                    <td><input type="text" name="name" placeholder="Enter your full name"></td>
+             
 
-                <tr>
+                
                     <td>Email Address</td>
-                    <td><input type="email" name="email"></td>
+                    <td><input type="email" name="email" placeholder="Enter your email address"></td>
                 </tr>
 
                 <tr>
                     <td>Password</td>
-                    <td><input type="password" name="password"></td>
-                </tr>
-
-                <tr>
+                    <td><input type="password" name="password" placeholder="Enter your password"></td>
+              
                     <td>Age</td>
-                    <td><input type="number" name="age"></td>
-                </tr>
-
-                <tr>
+                    <td><input type="number" name="age" placeholder="Enter your     age"></td>
+              
+            </tr>
                     <td><label for="ExpDate">Expiration Date</label></td>
                     <td>
                         <input type="date" id="ExpDate" name="ExpDate">
                     </td>
-                </tr>
+               
 
+                    <td>Phone Number</td>
+                    <td><input type="tel" name="phone" placeholder="Enter your phone number"></td>
+                </tr>
                 <tr>
-                    <td>
-                        <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
-                    </td>
-                </tr>
-            </table>
+                    </table>
+                          </fieldset>
+    
+</tr>
+                 <tr><td>
+                        <input class="submit" type="submit" value="Submit">
+                        <input class="reset" type="reset" value="Reset">
+                    </td></tr>   
+                
+            </form>
 
-        </fieldset>
-    </form>
-
+  
 </body>
 </html>
